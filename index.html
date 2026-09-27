@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaikin's Algorithm Animation</title>
+    <meta name="description" content="Step by step animation of Chaikin's algorithm for curve generation">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="ui">
+        <h1>Chaikin's Algorithm</h1>
+        <p>Click on the canvas to place control points.</p>
+        <p>Press <strong>Enter</strong> to start/stop the animation.</p>
+        <p>Press <strong>Escape</strong> to clear the canvas.</p>
+        <p>Bonus: You can drag points in real-time!</p>
+        <div id="status">Current Step: 0 / 7</div>
+    </div>
+    <div id="notification"></div>
+    <canvas id="canvas"></canvas>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
